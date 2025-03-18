@@ -1,31 +1,12 @@
 @import url('variables.css');
+
+@import url('header.css');
+@import url('footer.css');
+@import url('formulario.css');
 @import url('globales.css');
 
-body{
-    margin: 0;
-    width: 100%;
-}
-header{
-    background-color: var(--verde);
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    div{
-        margin: 0 1rem;
-    }
-    
-}
-nav{
-    display: flex;
-    flex-direction: row;
-    
-    a{
-        padding: 1.2rem;
-    }
-}
-main{
-    @media (min-width: var(tablet)){
-        
 
-    }
-}
+
+
+
+

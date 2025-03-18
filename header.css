@@ -1,0 +1,39 @@
+@import 'variables.css';
+
+.barra{
+    background-color: var(--verde);
+    
+}
+.contenido-barra{
+    width: 80%;
+    max-width: 80rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    div{
+        margin: 0 1rem;
+    }
+}
+.icono{
+   width: 1.5rem;
+   cursor: pointer;
+   &:hover{
+    transform: scale(1.10);
+   }
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    a{
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        transition: transform 0.3s ease;
+    }
+    a:hover {
+        color: var(--blanco);
+        transform: scale(1.05);
+    }
+}

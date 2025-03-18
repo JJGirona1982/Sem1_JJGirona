@@ -1,27 +1,26 @@
 @import url('variables.css');
 
-body {
+*{
+    
+    box-sizing: border-box;
+}
+body, html {
+   
     background-color: var(--blanco);
-    
+    margin: 0;
+    padding: 0;
+    width: 100%;  
+    display: flex;
+    flex-direction: column;  
+    min-height: 100vh;
 }
-a{
-    text-decoration: none;
-    transition: transform 0.3s ease-in-out;
-    &:hover{
-        color: var(--blanco);
-        font-size: 1.5rem;
-        cursor: pointer;
-    }
-}
-.boton-oscuro{
-    background: none;
-    border: none;
-    text-decoration: none;
-    color: var(--amarillo);
-    &:hover{
-        cursor: pointer;
-    }
-    
+main{
+    flex-grow: 1;
+    width:80%;
+    max-width: 60rem;
+    text-align: center;
+    margin: auto;
+
 }
 h1{
     font-size: 3rem;
@@ -32,15 +31,32 @@ h2{
 h3{
     font-size: 1.5rem;
 }
-p{
+h4{
     font-size: 1.2rem;
 }
-h1,h2,h3,p,a{
+p{
+    font-size: 1.2rem;
+    text-align: justify;
+    color: var(--verde);
+}
+h1,h2,h3,h4,a{
     color: var(--amarillo);
 }
+.boton-oscuro{
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: var(--amarillo);
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+/* Modo oscuro */
 
 .dark{
     main{
         background-color: black;
+        color: white;
     }
 }

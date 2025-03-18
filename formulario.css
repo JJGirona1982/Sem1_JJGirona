@@ -1,0 +1,70 @@
+@import 'variables.css';
+
+
+.formulario{
+    padding: 1rem 2rem;
+    margin-bottom: 3rem;
+}
+fieldset{
+    padding: 1rem;
+    border-radius: 8px;
+    border: solid 2px var(--verde);
+    box-shadow: 0 0 15px var(--verde);
+}
+.campos{
+   display: grid;
+   gap: 1rem;
+  
+}
+.campo-nombre{
+    p{
+        padding-bottom: 0.2rem;
+    }
+}
+label{
+    display: block;
+    padding:0 0 0 2rem;
+    text-align: left;
+
+}
+input,textarea{
+    width: 75%;
+    margin: auto;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 0 0 15px var(--amarillo);
+    padding-left: 1.2rem;
+}
+input{
+    height: 2rem;
+}
+.campo-mensaje{
+    display: inline;
+}
+textarea {
+    height: 5rem;
+    margin-bottom: 3rem;
+    padding-top: 1rem;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    .btn-enviar {
+        background-color: var(--verde);
+        color: var(--amarillo);
+        border: none;
+        width: 8rem;
+        height: 2.5rem;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        transition: transform 0.3s ease;
+        }
+    .btn-enviar:hover{
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+}
