@@ -1,0 +1,46 @@
+@import url('variables.css');
+
+body {
+    background-color: var(--blanco);
+    
+}
+a{
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+    &:hover{
+        color: var(--blanco);
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+}
+.boton-oscuro{
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: var(--amarillo);
+    &:hover{
+        cursor: pointer;
+    }
+    
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1.2rem;
+}
+h1,h2,h3,p,a{
+    color: var(--amarillo);
+}
+
+.dark{
+    main{
+        background-color: black;
+    }
+}

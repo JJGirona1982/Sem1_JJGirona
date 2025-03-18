@@ -1,0 +1,8 @@
+:root{
+    --blanco:#faf5f9;
+    --amarillo:#ffcc00;
+    --verde:#009b4d;
+    --tablet{
+        min-width: 968px;
+    }
+}
