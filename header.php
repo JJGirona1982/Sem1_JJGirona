@@ -7,7 +7,7 @@
             <nav class="navegacion">
                 <p><a href="index.php">Inicio</a></p>
                 <p><a href="contacto.php">Contacto</a></p>
-                <img src="dark-mode.svg" alt="icono modo oscuro" class="icono" id="btnDark" title="cambiar modo">
+                <img src="./src/dark-mode.svg" alt="icono modo oscuro" class="icono" id="btnDark" title="cambiar modo">
             </nav>
         </div>
     </div>

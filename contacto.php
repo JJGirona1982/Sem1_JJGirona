@@ -21,7 +21,7 @@ unset($_SESSION['errores'], $_SESSION['datos']);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Contacto</title>
 </head>
 <body>
@@ -67,6 +67,6 @@ unset($_SESSION['errores'], $_SESSION['datos']);
         </form>
     </main>
     <?php include 'footer.php'; ?>
-    <script src="script.js"></script>
+    <script src="./JS/script.js"></script>
 </body>
 </html>
