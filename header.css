@@ -7,19 +7,28 @@
 .contenido-barra{
     width: 80%;
     max-width: 80rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     margin: auto;
-    div{
-        margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     }
-}
+    
+@media (min-width:768px){
+    .contenido-barra{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .contenido-barra div{
+        margin: 0 1rem;
+        }   
+    }
+
 .icono{
    width: 1.5rem;
    cursor: pointer;
    &:hover{
-    transform: scale(1.10);
+   transform: scale(1.10);
    }
 }
 nav{

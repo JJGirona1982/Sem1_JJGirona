@@ -1,7 +1,7 @@
 <header class="barra">
     <div class="contenido-barra">
         <div class="titulo-nav">
-            <h1 class="pagina-principal">Ejercicio JJ Girona</h1>
+            <h1 class="pagina-principal">JJ Girona</h1>
         </div>
         <div>
             <nav class="navegacion">

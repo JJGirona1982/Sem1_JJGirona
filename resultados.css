@@ -1,0 +1,8 @@
+@import 'variables.css';
+
+.resultados{
+    flex-grow: 1;
+    margin: auto;
+   
+    padding: auto;
+}

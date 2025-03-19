@@ -1,7 +1,7 @@
 @import 'variables.css';
 
 .footer{
-    position: relative;
+   
     height: 8rem;
     bottom: 0;
     width: 100%;
@@ -9,12 +9,16 @@
     align-items: center;
     justify-content: center;
     background-color: var(--verde);
-    margin:0;
-    
+    margin-bottom:0;
+    padding-top: 1.5rem;
 }
 .contenido-footer{
     display: flex;
     gap: 0.1rem;
     flex-direction: column;
     align-items: center;
+}
+.derechos{
+    text-align: center;
+    margin: 0 auto;
 }
