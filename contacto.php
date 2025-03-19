@@ -1,9 +1,19 @@
 <?php 
-// Solo incluir validar.php cuando el formulario se haya enviado
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    include 'validar.php';
+
+session_start();
+
+ // Solo incluir validar.php cuando el formulario se haya enviado
+//  if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+//      include 'validar.php';
    
-}
+//  }
+$errores = $_SESSION['errores'] ?? [];
+$datos = $_SESSION['datos'] ?? [];
+
+unset($_SESSION['errores'], $_SESSION['datos']);
+
+
+
 ?>
 
 <!DOCTYPE html>
@@ -19,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <main>
         <h2>Formulario de contacto</h2>
 
-        <form action="contacto.php" class="formulario" method="POST" id="form">
+        <form action="validar.php" class="formulario" method="POST" id="form">
             <fieldset>
                 
                 <div class="campos">
